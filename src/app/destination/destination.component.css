@@ -1,0 +1,18 @@
+.images{
+    display: inline-block;
+    justify-content: space-around;
+
+    height: 300px;
+    width: 400px;
+
+}
+.destination{
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+
+}
+.desti{
+    justify-content: center;
+    text-align: center;
+}

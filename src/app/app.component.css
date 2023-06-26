@@ -1,0 +1,19 @@
+.header{
+    position: relative;
+    background-color: aqua;
+    color: black;
+    text-align: center;
+}
+
+.travel{
+    font-size: larger;
+    
+}
+.tral{
+    justify-content: center;
+    text-align: center;
+}
+.para{
+    justify-content: center;
+    text-align: center;
+}

@@ -12,13 +12,15 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { AuthGuard } from './authservice/auth.guard';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     
     DestinationComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    
   ],
   imports: [
     BrowserModule,

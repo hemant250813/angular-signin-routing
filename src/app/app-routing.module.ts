@@ -7,9 +7,10 @@ import { AuthGuard } from './authservice/auth.guard';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
+  {path: 'home' , redirectTo: '', pathMatch: 'full'},
   
   { path: 'destination', component: DestinationComponent, canActivate: [AuthGuard] },
-  { path: 'about', component: AboutComponent, canActivate : [AuthGuard] },
+  { path: 'about', component: AboutComponent, },
   { path: 'contact', component: ContactComponent }
 ];
 
